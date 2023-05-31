@@ -23,11 +23,11 @@ let playing = true;
 
 
 btnNew.addEventListener('click', function() {
-  var newPlayerName1 = prompt("Enter a new player 1 name:");
+  var newPlayerName1 = prompt("Enter a new player1 name:");
   if (newPlayerName1) {
   name01.textContent = newPlayerName1;
       }
-  var newPlayerName2 = prompt("Enter a new player 2 name:");
+  var newPlayerName2 = prompt("Enter a new player2 name:");
   if (newPlayerName2) {
     name02.textContent = newPlayerName2;
         }
