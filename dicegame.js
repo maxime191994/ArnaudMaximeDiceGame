@@ -17,7 +17,7 @@ score1El.textContent = '0';
 diceEl.classList.add('hidden');
 
 let currentScore = 0;
-const scores = [12, 45];
+const scores = [0, 0];
 let activePlayer = 0;
 let playing = true;
 
